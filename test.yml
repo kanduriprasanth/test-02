@@ -1,5 +1,5 @@
 hosts: qa
 tasks: 
    - name: deploy to qa server
-     copy: src=/var/lib/jenkins/workspace/test-devops/index.html  dest=/var/www/html
+     copy: src=/var/lib/jenkins/workspace/project1/index.html  dest=/var/www/html
 
