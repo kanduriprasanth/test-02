@@ -1,4 +1,4 @@
-hosts: qa
+hosts: 18.222.97.189
 tasks: 
    - name: deploy to qa server
      copy: src=/var/lib/jenkins/workspace/CICD/index.html  dest=/var/www/html
