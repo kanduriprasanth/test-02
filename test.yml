@@ -1,5 +1,5 @@
 ---
- - hosts: prod-server 
+ - hosts: test-server 
    tasks: 
      - name: deploy to qa server
        copy: src=/var/lib/jenkins/workspace/CICD/index.html  dest=/var/www/html
